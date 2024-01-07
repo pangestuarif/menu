@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-plus-jakarta-sans: "Plus Jakarta Sans";
+  --font-arial: Arial;
+
+  /* font sizes */
+  --font-size-9xl: 28px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-orangered: #e72c0f;
+  --color-black: #000;
+}
+
+/*POP UP KATEGORI*/
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+:root {
+  /* fonts */
+  --font-plus-jakarta-sans: "Plus Jakarta Sans";
+
+  /* font sizes */
+  --font-size-21xl: 40px;
+  --font-size-29xl: 48px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gainsboro-100: #dadada;
+  --line-icon: #33363f;
+  --color-black: #000;
+
+  /* Border radiuses */
+  --br-16xl: 35px;
+  --br-12xs: 1px;
+  --br-22xl: 41px;
+  --br-52xl: 71px;
+}

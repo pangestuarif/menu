@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@400&display=swap" />
+  </head>
+  <body>
+    <div class="menu-page">
+      <div class="image-1-wrapper">
+        <img class="image-1-icon" alt="" src="./public/image-1@2x.png" />
+      </div>
+      <div class="rectangle-parent">
+        <div class="group-child"></div>
+        <div class="rectangle-group">
+          <img class="group-item" alt="" src="./public/rectangle-19@2x.png" />
+
+          <div class="mie-goreng-bakso-parent">
+            <div class="mie-goreng-bakso">Mie Goreng Bakso</div>
+            <div class="deskripsi">deskripsi</div>
+            <div class="rp-5000">Rp 5.000</div>
+          </div>
+          <img class="tombol-tambah-icon" alt="" src="./public/tombol-tambah@2x.png" id="tombolTambahImage" />
+        </div>
+      </div>
+      <div class="rectangle-container">
+        <div class="group-child"></div>
+        <div class="group-div">
+          <img class="group-item" alt="" src="./public/rectangle-19@2x.png" />
+
+          <div class="nasi-goreng-sosis-parent">
+            <div class="nasi-goreng-sosis">Nasi Goreng Sosis</div>
+            <div class="deskripsi">deskripsi</div>
+            <div class="rp-5000">Rp 5.000</div>
+          </div>
+          <img class="tombol-tambah-icon1" alt="" src="./public/tombol-tambah@2x.png" id="tombolTambahImage1" />
+        </div>
+      </div>
+      <div class="rectangle-parent1">
+        <div class="group-child"></div>
+        <div class="rectangle-parent2">
+          <img class="group-item" alt="" src="./public/rectangle-19@2x.png" />
+
+          <div class="roti-bakar-coklat-parent">
+            <div class="nasi-goreng-sosis">Roti Bakar Coklat</div>
+            <div class="deskripsi">deskripsi</div>
+            <div class="rp-5000">Rp 5.000</div>
+          </div>
+          <img class="tombol-tambah-icon2" alt="" src="./public/tombol-tambah@2x.png" />
+        </div>
+      </div>
+      <div class="menu-page-child"></div>
+      <div class="menu-page-item" id="rectangle4"></div>
+      <div class="kategori">Kategori</div>
+      <img class="akun-icon" alt="" src="./public/akun@2x.png" id="akun" />
+
+      <img class="back-icon" alt="" src="./public/back@2x.png" id="back" />
+
+      <div class="darhboard-alt">
+        <div class="darhboard-alt-child"></div>
+        <div class="darhboard-alt-item"></div>
+        <div class="darhboard-alt-inner"></div>
+        <div class="darhboard-alt-child1"></div>
+      </div>
+      <div class="menu-page-inner"></div>
+      <img class="group-icon" alt="" src="./public/group-15@2x.png" id="group" />
+    </div>
+
+    <div id="popUpKategori" class="popup-overlay" style="display: none">
+      <div class="pop-up-kategori">
+        <img class="close-round-light-icon" alt="" src="./public/close-round-light@2x.png" />
+
+        <div class="kategori1">Kategori</div>
+        <div class="nasi-goreng">Nasi Goreng</div>
+        <div class="street-food">Street Food</div>
+        <div class="kwetiau">Kwetiau</div>
+        <div class="mie">Mie</div>
+        <div class="kepiting-vaganza">Kepiting Vaganza</div>
+        <div class="beef-vaganza">Beef Vaganza</div>
+        <div class="mie-vaganza">Mie Vaganza</div>
+        <div class="beef-double-goceng">Beef Double Goceng</div>
+        <div class="chicken-double-goceng">Chicken Double Goceng</div>
+        <div class="smoothies-times">Smoothies Times</div>
+        <img class="pop-up-kategori-child" alt="" src="./public/line-7@2x.png" />
+      </div>
+    </div>
+
+    <script>
+      var tombolTambahImage = document.getElementById("tombolTambahImage");
+      if (tombolTambahImage) {
+        tombolTambahImage.addEventListener("click", function (e) {
+          // Please sync "menu page 2" to the project
+        });
+      }
+
+      var tombolTambahImage1 = document.getElementById("tombolTambahImage1");
+      if (tombolTambahImage1) {
+        tombolTambahImage1.addEventListener("click", function (e) {
+          // Please sync "login page 2" to the project
+        });
+      }
+
+      var rectangle4 = document.getElementById("rectangle4");
+      if (rectangle4) {
+        rectangle4.addEventListener("click", function () {
+          var popup = document.getElementById("popUpKategori");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+
+      var akun = document.getElementById("akun");
+      if (akun) {
+        akun.addEventListener("click", function (e) {
+          // Please sync "login page 2" to the project
+        });
+      }
+
+      var back = document.getElementById("back");
+      if (back) {
+        back.addEventListener("click", function (e) {
+          // Please sync "Home Page" to the project
+        });
+      }
+
+      var group = document.getElementById("group");
+      if (group) {
+        group.addEventListener("click", function (e) {
+          // Please sync "Daftar Transaksi" to the project
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,579 @@
+.background-warceng-1-icon {
+  position: absolute;
+  top: -110px;
+  left: 0;
+  width: 1090px;
+  height: 860px;
+  object-fit: cover;
+}
+.home-page-child {
+  position: absolute;
+  top: 591px;
+  left: 164px;
+  border-radius: 48px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 762px;
+  height: 849px;
+}
+.pin-icon {
+  position: absolute;
+  top: 1241px;
+  left: 265px;
+  width: 85px;
+  height: 85px;
+  object-fit: cover;
+}
+.whatsapp-image-2023-11-20-at-1-icon {
+  position: absolute;
+  top: 400px;
+  left: 350px;
+  width: 390px;
+  height: 382.12px;
+  object-fit: cover;
+}
+.waroeng-goceng {
+  position: absolute;
+  top: 836px;
+  left: 270px;
+  font-size: 55px;
+  mix-blend-mode: darken;
+}
+.time-light-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 85px;
+  height: 85px;
+  object-fit: cover;
+}
+.buka-jam-0800-2200,
+.waroeng-goceng-kelapa {
+  position: absolute;
+  top: 26px;
+  left: 100px;
+  mix-blend-mode: darken;
+}
+.waroeng-goceng-kelapa {
+  top: 238px;
+}
+.waktu-buka {
+  position: absolute;
+  top: 1029px;
+  left: 265px;
+  width: 445px;
+  height: 270px;
+  font-family: var(--font-arial);
+}
+.buka-peta,
+.hubungi-waroeng {
+  position: absolute;
+  top: 27px;
+  left: 100px;
+  mix-blend-mode: darken;
+}
+.buka-peta {
+  top: 132px;
+  left: 499px;
+}
+.image-4-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 83.97px;
+  height: 85px;
+  object-fit: cover;
+}
+.nomor-wa {
+  position: absolute;
+  top: 1135px;
+  left: 265px;
+  width: 629px;
+  height: 164px;
+  color: var(--color-orangered);
+  font-family: var(--font-arial);
+}
+.home-page-item {
+  position: absolute;
+  top: 1570px;
+  left: 164px;
+  border-radius: 22px;
+  background-color: var(--color-orangered);
+  width: 762px;
+  height: 113px;
+  cursor: pointer;
+}
+.lihat-menu {
+  position: absolute;
+  top: 1597px;
+  left: 430px;
+  font-size: 47px;
+  color: var(--color-white);
+}
+.home-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2031px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font-plus-jakarta-sans);
+}
+
+@media only screen and (max-width: 600px) {
+  /* Adjust styles for smaller screens */
+
+  .pin-icon {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+
+  .whatsapp-image-2023-11-20-at-1-icon {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .waroeng-goceng {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    font-size: 30px;
+    mix-blend-mode: darken;
+  }
+
+  /* Add styles for other elements on smaller screens */
+}
+
+/* Styles for larger screens (laptops/desktops) - no changes */
+
+/*MENU*/
+
+.image-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.image-1-icon,
+.image-1-wrapper {
+  width: 1179px;
+  height: 562px;
+}
+.group-child,
+.group-item,
+.image-1-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.group-child {
+  border-radius: var(--br-52xl);
+  background-color: var(--color-gainsboro-100);
+  width: 1021px;
+  height: 381px;
+}
+.group-item {
+  border-radius: var(--br-22xl);
+  width: 307px;
+  height: 292px;
+  object-fit: cover;
+}
+.mie-goreng-bakso {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: pre-wrap;
+}
+.deskripsi,
+.rp-5000 {
+  position: absolute;
+  top: 87px;
+  left: 0;
+}
+.rp-5000 {
+  top: 215px;
+}
+.mie-goreng-bakso-parent {
+  position: absolute;
+  top: 11px;
+  left: 370px;
+  width: 354px;
+  height: 265px;
+}
+.tombol-tambah-icon {
+  position: absolute;
+  top: 207px;
+  left: 656px;
+  width: 85px;
+  height: 85px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.rectangle-group {
+  position: absolute;
+  top: 38px;
+  left: 65px;
+  width: 741px;
+  height: 292px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 748px;
+  left: 22px;
+  width: 1021px;
+  height: 381px;
+}
+.nasi-goreng-sosis {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.nasi-goreng-sosis-parent {
+  position: absolute;
+  top: 11px;
+  left: 370px;
+  width: 344px;
+  height: 265px;
+}
+.tombol-tambah-icon1 {
+  position: absolute;
+  top: 207px;
+  left: 635px;
+  width: 85px;
+  height: 85px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.group-div {
+  position: absolute;
+  top: 38px;
+  left: 65px;
+  width: 720px;
+  height: 292px;
+}
+.rectangle-container {
+  position: absolute;
+  top: 1159px;
+  left: 32px;
+  width: 1021px;
+  height: 381px;
+}
+.roti-bakar-coklat-parent {
+  position: absolute;
+  top: 11px;
+  left: 370px;
+  width: 324px;
+  height: 265px;
+}
+.tombol-tambah-icon2 {
+  position: absolute;
+  top: 207px;
+  left: 634px;
+  width: 85px;
+  height: 85px;
+  object-fit: cover;
+}
+.rectangle-parent2 {
+  position: absolute;
+  top: 38px;
+  left: 65px;
+  width: 719px;
+  height: 292px;
+}
+.rectangle-parent1 {
+  position: absolute;
+  top: 1570px;
+  left: 22px;
+  width: 1021px;
+  height: 381px;
+}
+.menu-page-child,
+.menu-page-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #e72c0f;
+  width: 1076px;
+  height: 109px;
+}
+.menu-page-item {
+  top: 592px;
+  left: 45px;
+  border-radius: var(--br-16xl);
+  background-color: #d9d9d9;
+  width: 970px;
+  height: 99px;
+}
+.kategori {
+  position: absolute;
+  top: 616px;
+  left: 159px;
+}
+.akun-icon,
+.back-icon {
+  position: absolute;
+  top: 12px;
+  left: 957px;
+  width: 80px;
+  height: 85px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.back-icon {
+  left: 39px;
+}
+.darhboard-alt-child,
+.darhboard-alt-child1,
+.darhboard-alt-inner,
+.darhboard-alt-item {
+  position: absolute;
+  height: 31.76%;
+  width: 27.6%;
+  top: 15.37%;
+  right: 57.03%;
+  bottom: 52.87%;
+  left: 15.37%;
+  border-radius: var(--br-12xs);
+  border: 2px solid var(--line-icon);
+  box-sizing: border-box;
+}
+.darhboard-alt-child1,
+.darhboard-alt-inner,
+.darhboard-alt-item {
+  height: 23.43%;
+  top: 61.2%;
+  bottom: 15.37%;
+}
+.darhboard-alt-child1,
+.darhboard-alt-inner {
+  top: 15.37%;
+  right: 15.37%;
+  bottom: 61.2%;
+  left: 57.03%;
+}
+.darhboard-alt-child1 {
+  height: 31.76%;
+  top: 52.87%;
+  bottom: 15.37%;
+}
+.darhboard-alt,
+.menu-page-inner {
+  position: absolute;
+  top: 603px;
+  left: 62px;
+  width: 77px;
+  height: 77px;
+}
+.menu-page-inner {
+  top: 595px;
+  left: 1015px;
+  border-radius: var(--br-16xl);
+  background-color: rgba(217, 217, 217, 0.45);
+  width: 270px;
+  height: 99px;
+}
+.group-icon {
+  position: absolute;
+  height: 4.11%;
+  width: 7.43%;
+  top: 0.58%;
+  right: 15.61%;
+  bottom: 95.31%;
+  left: 76.95%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.menu-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2070px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-plus-jakarta-sans);
+}
+.close-round-light-icon {
+  position: absolute;
+  top: 38px;
+  left: 942px;
+  width: 85px;
+  height: 85px;
+  object-fit: cover;
+}
+.kategori1 {
+  position: absolute;
+  top: 50px;
+  left: 61.01px;
+}
+.kwetiau,
+.mie,
+.nasi-goreng,
+.street-food {
+  position: absolute;
+  top: 204px;
+  left: 61px;
+}
+.kwetiau,
+.mie,
+.street-food {
+  top: 337px;
+}
+.kwetiau,
+.mie {
+  top: 470px;
+}
+.mie {
+  top: 603px;
+}
+.beef-vaganza,
+.kepiting-vaganza,
+.mie-vaganza {
+  position: absolute;
+  top: 736px;
+  left: 61px;
+}
+.beef-vaganza,
+.mie-vaganza {
+  top: 869px;
+}
+.mie-vaganza {
+  top: 1002px;
+}
+.beef-double-goceng,
+.chicken-double-goceng {
+  position: absolute;
+  top: 1135px;
+  left: 61px;
+}
+.chicken-double-goceng {
+  top: 1268px;
+  white-space: pre-wrap;
+}
+.smoothies-times {
+  position: absolute;
+  top: 1401px;
+  left: 61px;
+}
+.pop-up-kategori-child {
+  position: absolute;
+  top: 148.52px;
+  left: -10px;
+  max-height: 100%;
+  width: 1086.02px;
+  object-fit: cover;
+}
+.pop-up-kategori {
+  position: relative;
+  background-color: var(--color-white);
+  width: 1076px;
+  height: 1540px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-plus-jakarta-sans);
+}
+
+/* POP UP KATEGORI*/
+
+.close-round-light-icon {
+  position: absolute;
+  top: 38px;
+  left: 942px;
+  width: 85px;
+  height: 85px;
+  object-fit: cover;
+}
+.kategori1 {
+  position: absolute;
+  top: 50px;
+  left: 61.01px;
+}
+.kwetiau,
+.mie,
+.nasi-goreng,
+.street-food {
+  position: absolute;
+  top: 204px;
+  left: 61px;
+}
+.kwetiau,
+.mie,
+.street-food {
+  top: 337px;
+}
+.kwetiau,
+.mie {
+  top: 470px;
+}
+.mie {
+  top: 603px;
+}
+.beef-vaganza,
+.kepiting-vaganza,
+.mie-vaganza {
+  position: absolute;
+  top: 736px;
+  left: 61px;
+}
+.beef-vaganza,
+.mie-vaganza {
+  top: 869px;
+}
+.mie-vaganza {
+  top: 1002px;
+}
+.beef-double-goceng,
+.chicken-double-goceng {
+  position: absolute;
+  top: 1135px;
+  left: 61px;
+}
+.chicken-double-goceng {
+  top: 1268px;
+  white-space: pre-wrap;
+}
+.smoothies-times {
+  position: absolute;
+  top: 1401px;
+  left: 61px;
+}
+.pop-up-kategori-child {
+  position: absolute;
+  top: 148.52px;
+  left: -10px;
+  max-height: 100%;
+  width: 1086.02px;
+  object-fit: cover;
+}
+.pop-up-kategori {
+  position: relative;
+  background-color: var(--color-white);
+  width: 1076px;
+  height: 1540px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-plus-jakarta-sans);
+}
